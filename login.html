@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UFC-8">
+    <title>Log In</title>
+    <link rel="stylesheet" href="style.css">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Lily+Script+One&family=Yatra+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <nav>
+            <a href="index.html"><img id="logo" src="logo_black.png"></a>
+            <ul class="nav-ul-1">
+                <li><a id="nav-ul-ani" href="index.html">home</a></li>
+                <li><a id="nav-ul-ani" href="shop.html">shop</a></li>
+                <li><a id="nav-ul-ani" href="ourstory.html">our story</a></li>
+                <li><a id="nav-ul-ani" href="contactus.html">contact us</a></li>
+            </ul>
+            <div class="nav-ul-2">
+                <a id="nav-a-2" href="login.html"><img id="nav-icon-no-ani" src="account_circle_24dp_00000_FILL1_wght200_GRAD0_opsz24.svg"></a>
+                <img id="nav-icon" src="shopping_basket_24dp_00000_FILL0_wght200_GRAD0_opsz24.svg">
+                <span class="quantity">0</span>
+            </div>
+        </nav>
+    </header>
+    <!--HEADER-->
+
+    <div class="container-8">
+        <div class="form-box">
+            <div class="login-box">
+                <h2>Login</h2>
+                <form>
+                    <div class="input-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#00000"><path d="M184.62-200q-27.62 0-46.12-18.5Q120-237 120-264.62v-430.76q0-27.62 18.5-46.12Q157-760 184.62-760h590.76q27.62 0 46.12 18.5Q840-723 840-695.38v430.76q0 27.62-18.5 46.12Q803-200 775.38-200H184.62ZM480-475.38l320-209.24L787.69-720 480-520 172.31-720 160-684.62l320 209.24Z"/></svg>
+                        <input required type="email">
+                        <label>EMAIL</label>
+                    </div>
+                    <div class="input-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#00000"><path d="M252.31-100q-29.83 0-51.07-21.24Q180-142.48 180-172.31v-375.38q0-29.83 21.24-51.07Q222.48-620 252.31-620H300v-80q0-74.92 52.54-127.46Q405.08-880 480-880q74.92 0 127.46 52.54Q660-774.92 660-700v80h47.69q29.83 0 51.07 21.24Q780-577.52 780-547.69v375.38q0 29.83-21.24 51.07Q737.52-100 707.69-100H252.31ZM480-290q29.15 0 49.58-20.42Q550-330.85 550-360t-20.42-49.58Q509.15-430 480-430t-49.58 20.42Q410-389.15 410-360t20.42 49.58Q450.85-290 480-290ZM360-620h240v-80q0-50-35-85t-85-35q-50 0-85 35t-35 85v80Z"/></svg>
+                        <input required type="password">
+                        <label>PASSWORD</label>
+                    </div>
+                    <div class="remember-box">
+                        <label>
+                            <input type="checkbox">Remember Me</label>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="button">Log In</button>
+                    <div class="login-register">
+                        <p>Don't have an account? <a href="#" class="register-link">Register</a> </p>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="register-box">
+                <h2>Registeration</h2>
+                <form>
+                    <div class="input-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="38px" viewBox="0 -960 960 960" width="38px" fill="#00000"><path d="M480-504.62q-49.5 0-84.75-35.25T360-624.62q0-49.5 35.25-84.75T480-744.62q49.5 0 84.75 35.25T600-624.62q0 49.5-35.25 84.75T480-504.62ZM200-215.38v-65.85q0-24.77 14.42-46.35 14.43-21.57 38.81-33.5 56.62-27.15 113.31-40.73 56.69-13.57 113.46-13.57 56.77 0 113.46 13.57 56.69 13.58 113.31 40.73 24.38 11.93 38.81 33.5Q760-306 760-281.23v65.85H200Z"/></svg>
+                        <input required type="text">
+                        <label>NAME</label>
+                    </div>
+                    <div class="input-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#00000"><path d="M184.62-200q-27.62 0-46.12-18.5Q120-237 120-264.62v-430.76q0-27.62 18.5-46.12Q157-760 184.62-760h590.76q27.62 0 46.12 18.5Q840-723 840-695.38v430.76q0 27.62-18.5 46.12Q803-200 775.38-200H184.62ZM480-475.38l320-209.24L787.69-720 480-520 172.31-720 160-684.62l320 209.24Z"/></svg>
+                        <input required type="email">
+                        <label>EMAIL</label>
+                    </div>
+                    <div class="input-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#00000"><path d="M252.31-100q-29.83 0-51.07-21.24Q180-142.48 180-172.31v-375.38q0-29.83 21.24-51.07Q222.48-620 252.31-620H300v-80q0-74.92 52.54-127.46Q405.08-880 480-880q74.92 0 127.46 52.54Q660-774.92 660-700v80h47.69q29.83 0 51.07 21.24Q780-577.52 780-547.69v375.38q0 29.83-21.24 51.07Q737.52-100 707.69-100H252.31ZM480-290q29.15 0 49.58-20.42Q550-330.85 550-360t-20.42-49.58Q509.15-430 480-430t-49.58 20.42Q410-389.15 410-360t20.42 49.58Q450.85-290 480-290ZM360-620h240v-80q0-50-35-85t-85-35q-50 0-85 35t-35 85v80Z"/></svg>
+                        <input required type="password">
+                        <label>PASSWORD</label>
+                    </div>
+                    <div class="input-box">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#00000"><path d="M252.31-100q-29.83 0-51.07-21.24Q180-142.48 180-172.31v-375.38q0-29.83 21.24-51.07Q222.48-620 252.31-620H300v-80q0-74.92 52.54-127.46Q405.08-880 480-880q74.92 0 127.46 52.54Q660-774.92 660-700v80h47.69q29.83 0 51.07 21.24Q780-577.52 780-547.69v375.38q0 29.83-21.24 51.07Q737.52-100 707.69-100H252.31ZM480-290q29.15 0 49.58-20.42Q550-330.85 550-360t-20.42-49.58Q509.15-430 480-430t-49.58 20.42Q410-389.15 410-360t20.42 49.58Q450.85-290 480-290ZM360-620h240v-80q0-50-35-85t-85-35q-50 0-85 35t-35 85v80Z"/></svg>
+                        <input required type="password">
+                        <label>REPEAT PASSWORD</label>
+                    </div>
+                    <div class="remember-box">
+                        <label>
+                            <input type="checkbox">I agree to the Terms & Conditions.</label>
+                    </div>
+                    <button type="submit" class="button">Sign Up</button>
+                    <div class="login-register">
+                        <p>Already have an account? <a href="#" class="login-link">Login</a> </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <script src="login_script.js"></script>
+
+    <!--FOOTER-->
+    <section id="footer">
+        <div class="subftr-1">
+            <h4>Interested on what's coming next?</h4>
+            <p>Sign up for our newsletter to be updated about restocks, new arrivals, exclusive discounts, and special offers!</p>
+            <br>
+            <div class="subftr-1-1">
+                <label id="ftr-label">
+                    <input id="ftrEmail" type="text" placeholder="E-mail">
+                    <button id="ftrSend">Subscribe</button>
+                </label>
+
+                <script src="ftr_script.js"></script>
+
+            </div>
+            <h5>© 2024 Ani Aeta Produce. All rights reserved.</h5>
+        </div>
+        <div class="subftr-2">
+            <div class="subftr-2-1">
+                <div class="subftr-2-1-1">
+                    <h4>About Us</h4>
+                    <a href="ourstory.html" id="ftrbut-1">our story</a>
+                </div>
+                <div class="subftr-2-1-2">
+                    <h4>HELP</h4>
+                    <a href="contactus.html" id="ftrbut-1">contact us</a>
+                </div>
+            </div>
+            <div class="subftr-3">
+                <div class="subftr-3-1">
+                    <img id="socmed" src="call_24dp_F5F5F5_FILL1_wght200_GRAD0_opsz24.svg">
+                    <h5 style="font-size: 18px;">| 444-3030</h5>
+                </div>
+                <div class="subftr-3-1">
+                    <a href="https://www.instagram.com/"><img id="socmed" src="Ig.png"></a>
+                    <a href="https://www.facebook.com/"><img id="socmed" src="fb.png"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+</body>
+</html>

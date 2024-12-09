@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UFC-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Borel&family=Lily+Script+One&family=Yatra+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--HEADER-->
+    <header>
+        <nav>
+            <a href="index.html"><img id="logo" src="logo_black.png"></a>
+            <ul class="nav-ul-1">
+                <li><a id="nav-ul-ani" href="index.html">home</a></li>
+                <li><a id="nav-ul-ani" href="shop.html">shop</a></li>
+                <li><a id="nav-ul-ani" href="ourstory.html">our story</a></li>
+                <li><a id="nav-ul-noani" href="contactus.html">contact us</a></li>
+            </ul>
+            <div class="nav-ul-2">
+                <a id="nav-a-2" href="login.html"><img id="nav-icon" src="account_circle_24dp_00000_FILL1_wght200_GRAD0_opsz24.svg"></a>
+                <img id="nav-icon" src="shopping_basket_24dp_00000_FILL0_wght200_GRAD0_opsz24.svg">
+                <span class="quantity">0</span>
+            </div>
+        </nav>
+    </header>
+    <!--HEADER-->
+
+    <section id="contact">
+        <div class="intro">
+            <h2 id="intromsg">Connect with our team today!</h2>
+            <p id="text-1">We'd love to hear from you!</p>
+        </div>
+        <div id="input-1">
+            <div class="nameBox">
+                <label>NAME</label><br>
+                <input type="text" id="myName">
+            </div>
+            <div class="emailBox">
+                <label>EMAIL</label><br>
+                <input type="text" id="myEmail">
+            </div>
+        </div>
+
+        <div id="input-2">
+            <div class="messageBox"> 
+                <label>MESSAGE</label><br>
+                <textarea name="contact[body]" id="myMessage"></textarea>
+            </div>
+        </div>
+        <div id="button-1">
+            <button id="mySend" class="button">SEND</button>
+        </div>
+
+        <script src="script.js"></script>
+
+    </section>
+    
+    <!--FOOTER-->
+    <section id="footer">
+        <div class="subftr-1">
+            <h4>Interested on what's coming next?</h4>
+            <p>Sign up for our newsletter to be updated about restocks, new arrivals, exclusive discounts, and special offers!</p>
+            <br>
+            <div class="subftr-1-1">
+                <label id="ftr-label">
+                    <input id="ftrEmail" type="text" placeholder="E-mail">
+                    <button id="ftrSend">Subscribe</button>
+                </label>
+
+                <script src="ftr_script.js"></script>
+
+            </div>
+            <h5>© 2024 Ani Aeta Produce. All rights reserved.</h5>
+        </div>
+        <div class="subftr-2">
+            <div class="subftr-2-1">
+                <div class="subftr-2-1-1">
+                    <h4>About Us</h4>
+                    <a href="ourstory.html" id="ftrbut-1">our story</a>
+                </div>
+                <div class="subftr-2-1-2">
+                    <h4>HELP</h4>
+                    <a href="contactus.html" id="ftrbut-1">contact us</a>
+                </div>
+            </div>
+            <div class="subftr-3">
+                <div class="subftr-3-1">
+                    <img id="socmed" src="call_24dp_F5F5F5_FILL1_wght200_GRAD0_opsz24.svg">
+                    <h5 style="font-size: 18px;">| 444-3030</h5>
+                </div>
+                <div class="subftr-3-1">
+                    <a href="https://www.instagram.com/"><img id="socmed" src="Ig.png"></a>
+                    <a href="https://www.facebook.com/"><img id="socmed" src="fb.png"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FOOTER-->
+</body>
+</html> 
